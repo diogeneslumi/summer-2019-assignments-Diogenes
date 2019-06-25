@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+</head>
+<!--STYLE TAG in HTML is the CSS Internal Stylesheet.-->
+<style>
+    body {
+        background-color: #EB5EBB;
+   
+
+    }
+
+    /*Select all mains within all divs whitin body.*/
+    main p {
+        color: white;
+    }
+
+    /*Direct Child Selector ">"
+        select a main that is a direct child of div 
+        which should be a direct chiild of body.
+    */
+
+    body>div>main>p {
+        color: aqua;
+    }
+
+    span {
+        font-weight: bold;
+
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+</style>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Header</h1>
+            <p>This is the <span>Header</span> section.</p>
+        </header>
+
+        <main>
+            <h1>Main</h1>
+            <p>This is the Main section.</p>
+            <ol>
+                <li class="underline">First Item</li>
+                <li>Second Item</li>
+                <li class="underline">Thrid Item</li>
+                <li>Fourth Item</li>
+                <li class="underline">Fifth Item</li>
+            </ol>
+        </main>
+        <div id="anothercontainer">
+            <main>
+                <p>This is something else.</p>
+            </main>
+        </div>
+
+        <footer>
+            <h1>Footer</h1>
+            <p>This is the Footer section.</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
