@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+</head>
+<!--STYLE TAG in HTML is the CSS Internal Stylesheet.-->
+<style>
+    .card {
+        width: 320px;
+        height: 445px;
+        margin-top: 100px;
+        border-radius: 20px;
+        position: absolute;
+
+    }
+
+    .card p {
+        font-family: "Arial", sans-serif;
+        font-size: 48px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    #first {
+        left: 10px;
+        top: 10px;
+
+    }
+
+    #second {
+        left: 100px;
+        top: 100px;
+
+        z-index: 1;
+    }
+
+    #third {
+        top: 200px;
+        left: 200px;
+
+        z-index: 2;
+    }
+
+    #fourth {
+        top: 300px;
+        left: 300px;
+
+        z-index: 3;
+
+    }
+
+    #fifth {
+        top: 400px;
+        left: 400px;
+
+        z-index: 4;
+
+    }
+
+    img {
+        width: 320px;
+        height: 445px;
+        border-radius: 10px;
+
+    }
+
+</style>
+
+<body>
+    <div id="hand">
+        <h1>This is a Poker Hand :&#41;</h1>
+
+        <div class="card red" id="first"><img src="images/a-card.png">
+            <p></p>
+        </div>
+
+        <div class="card red" id="second"><img src="images/a-card.png">
+            <p></p>
+        </div>
+
+        <div class="card black" id="third"><img src="images/a-black.png">
+
+            <p></p>
+        </div>
+
+        <div class="card red" id="fourth"><img src="images/a-card.png">
+            <p></p>
+        </div>
+
+        <div class="card black" id="fifth"><img src="images/9-card.png">
+            <p></p>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
