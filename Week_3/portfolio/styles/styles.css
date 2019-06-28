@@ -2,33 +2,33 @@ body {
     background-color: lemonchiffon;
     background-image: url("../images/bg.jpg");
     background-size: cover;
-    
+
 }
+
 header {
-    
+
     width: 700px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
     background-color: lemonchiffon;
-    font-family: "rubik";
+    font-family: "Wonder Bay";
     color: darkgreen;
-    
-    
-    
+    font-size: 24px;
+  
 }
 
 main {
-    
+
     width: 700px;
-    height: 700px;
+    height: auto;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
     font-family: "rubik";
-    text-align: center;
     background-color: antiquewhite;
     color: darkgreen;
+    padding-bottom: 80px;
 }
 
 footer {
@@ -37,32 +37,85 @@ footer {
     height: 100px;
     text-align: right;
     border: 1px black dotted;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     background-color: floralwhite;
     font-family: "rubik";
     color: darkgreen;
-}   
+}
+
+/* 
+
+SEARCH HOW TO MAKE THE MENU GO UPPER
+
+*/
+
+#navigation {
+    text-align: center;
+
+
+
+}
 
 h1 {
-    font-size: 100px;
+
+    font-size: 36px;
     font-family: "rubik";
     color: darkgreen;
+    text-align: center;
 }
 
 p {
+
     font-size: 20px;
     font-family: "rubik";
     color: darkgoldenrod;
 
 }
 
+#footer {
+
+    color: darkgreen;
+
+}
+
+/* Image Styles START*/
+
+
+/**/
+#intro-image {
+    text-align: center;
+}
+
+/*
+"#intro-image img" means all images inside of intro-image will have the rules applied.
+*/
+
+#intro-image img {
+    width: 500px;
+    border-radius: 50px;
+
+}
+
+#intro-image #dio {
+    width: 500px;
+    border-radius: 50%;
+}
+
+#code {
+    opacity: .50;
+    
+}
+
+/* Anchor Pseudo Classes */
+
+
 a:link {
     color: coral;
 }
 
 a:visited {
-    color:darkgreen;
+    color: darkgreen;
 }
 
 a:hover {
@@ -71,4 +124,19 @@ a:hover {
 
 a:active {
     color: darkviolet;
+}
+
+div {
+    opacity: .80;   
+}
+
+/* */
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: solid #00ffeb;
+    border-radius: 5px;
+
 }
